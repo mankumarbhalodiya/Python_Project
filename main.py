@@ -19,7 +19,7 @@ def listen():
     return query.lower()
 
 def main():
-    speak("Hello, I am your Man AI. how can I help you")
+    speak("Hello, I am your AI. how can I help you")
 
     voice = listen()
 
@@ -46,3 +46,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
